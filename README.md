@@ -1,60 +1,106 @@
-# InAmigos Foundation — Awareness Webpage
+<p align="center">
+  <strong>InAmigos Foundation</strong><br/>
+  <em>Awareness Webpage — Spreading Hope, One Initiative at a Time</em>
+</p>
 
-A modern, responsive awareness website for **InAmigos Foundation**, a Section 8 registered non-profit based in Chhattisgarh, India. The site highlights the NGO’s mission, ongoing projects, social impact, campaigns, and ways to volunteer, donate, or partner.
-
-Built as a **frontend-only** competition project using React and Tailwind CSS.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-6-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Tailwind-4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/Status-Internship%20Project-2d9f6f?style=for-the-badge" alt="Status" />
+</p>
 
 ---
 
-## Live Demo
+## A Note from the Developer
 
-> Add your deployed URL here after hosting (e.g. Vercel, Netlify, GitHub Pages).
+During my **internship at InAmigos Foundation**, I had the opportunity to work closely with a team that believes every act of kindness—no matter how small—can change a life. This website is my contribution to that belief.
+
+It is not just a collection of pages. It is a digital window into the work being done every day: meals shared with families in need, children learning with hope in their eyes, women finding strength and independence, animals receiving care they deserve, and saplings taking root for a greener tomorrow.
+
+I built this project to help more people **see**, **understand**, and **join** a mission that already touches thousands of lives across India.
+
+---
+
+## About This Project
+
+| | |
+|---|---|
+| **Organization** | InAmigos Foundation |
+| **Purpose** | NGO awareness & outreach webpage |
+| **My Role** | Frontend development (Internship) |
+| **Stack** | React · Vite · Tailwind CSS |
+| **Type** | Frontend-only (no backend) |
+
+This responsive website introduces the foundation, showcases its six core projects, highlights real social impact, and invites visitors to volunteer, donate, or explore CSR partnerships.
 
 ---
 
 ## About InAmigos Foundation
 
-**InAmigos Foundation** was founded on **23 September 2020** by **Mr. Govind Shukla** (Founder & CEO). It is licensed by the Central Government under **Section 8**, with **80G & 12A**, **CSR-1**, **NITI Aayog**, and **IAF ISO 9001:2015** certifications.
+> *“At InAmigos Foundation, we believe in the power of collective action.”*
 
-### Key Initiatives
+Founded on **23 September 2020** by **Mr. Govind Shukla** (Founder & CEO), InAmigos is a **Section 8** registered non-profit headquartered in **Bilaspur, Chhattisgarh**, serving communities across India.
 
-| Project | Focus |
-|--------|--------|
-| **Project Seva** | Food and clothing for the underprivileged |
-| **Project Bachpanshala** | Education and digital literacy for children |
-| **Project Jeev** | Animal welfare, rescue, and feeding |
-| **Project Udaan** | Women empowerment and skill development |
-| **Project Prakriti** | Environmental conservation and tree plantation |
-| **Project Vikas** | Employability and internship programs |
+### Trust & Credentials
+
+- Section 8 — Licensed by the Central Government  
+- 80G & 12A — Transparency and tax benefits for donors  
+- CSR-1 — Corporate social responsibility partnerships  
+- NITI Aayog — Aligned with national development goals  
+- IAF ISO 9001:2015 — Quality standards in operations  
+
+### Six Pillars of Change
+
+| Initiative | What It Means for People |
+|------------|--------------------------|
+| **Project Seva** | Food and clothing for those who need dignity most |
+| **Project Bachpanshala** | Education, digital literacy, and brighter futures for children |
+| **Project Jeev** | Compassion, rescue, and daily care for stray animals |
+| **Project Udaan** | Skills, confidence, and independence for women in rural India |
+| **Project Prakriti** | Tree plantation and sustainable living for our planet |
+| **Project Vikas** | Internships and employability for young professionals |
 
 ---
 
-## Features
+## What You Will Find on This Website
 
-- **Hero section** with auto-rotating project photo slideshow
-- **About** section with credentials and recognitions
-- **Projects** — interactive tabs + project cards with impact details
-- **Social impact** — animated statistics and per-project impact cards
-- **Campaigns & highlights** — event cards and blog-style content
-- **Hashtag cloud** — `#InAmigos` and related campaign tags
-- **Call to action** — Volunteer, Donate, CSR partnership options
-- **Contact** — address, email, phone, and map embed
-- **Light / dark mode** with saved preference
-- **Fully responsive** — mobile, tablet, and desktop
-- **Smooth animations** — scroll reveals and transitions (Framer Motion)
-- **Safe image loading** — fallback if an image URL fails
+### Heart of the Experience
+
+- **Hero slideshow** — Rotating photos from real projects and field work  
+- **Impact in numbers** — Meals served, saplings planted, interns trained, lives touched  
+- **Stories that matter** — Campaigns, events, and content highlights from the team  
+
+### Built for Everyone
+
+- **Light & dark mode** — Comfortable viewing, day or night  
+- **Mobile-first design** — Accessible on any device  
+- **Smooth, thoughtful animations** — A calm, professional feel—not distracting noise  
+
+### Ways to Take Action
+
+- Volunteer with the foundation  
+- Support through donation (80G & 12A certified)  
+- Explore CSR partnerships  
+- Get in touch via contact form and map  
+
+---
+
+## Features at a Glance
 
 ---
 
 ## Tech Stack
 
-| Technology | Purpose |
-|------------|---------|
-| [React 19](https://react.dev/) | UI framework |
-| [Vite 6](https://vitejs.dev/) | Build tool and dev server |
-| [Tailwind CSS v4](https://tailwindcss.com/) | Styling (`@tailwindcss/vite`, no PostCSS config) |
-| [Framer Motion](https://www.framer.com/motion/) | Animations |
-| [Lucide React](https://lucide.dev/) | Icons |
+| Layer | Tools |
+|-------|--------|
+| **UI** | React 19 |
+| **Build** | Vite 6 |
+| **Styling** | Tailwind CSS v4 (`@tailwindcss/vite`) |
+| **Motion** | Framer Motion |
+| **Icons** | Lucide React |
+
+Clean, modern, and maintainable—chosen so future interns and developers can easily update content without heavy complexity.
 
 ---
 
@@ -62,12 +108,88 @@ Built as a **frontend-only** competition project using React and Tailwind CSS.
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v18 or newer recommended)
-- npm
+- Node.js 18+  
+- npm  
 
-### Installation
+### Install & Run
 
 ```bash
+# Clone the repository
 git clone <your-repo-url>
 cd "InAmigos Awareness Page"
+
+# Install dependencies
 npm install
+
+# Start development server
+npm run dev
+
+Visit http://localhost:5173 in your browser.
+
+Build for Production
+npm run build
+npm run preview
+
+Project Structure
+
+InAmigos Awareness Page/
+│
+├── public/                    # Static files (favicon, local images)
+│
+├── src/
+│   ├── components/            # Page sections & UI
+│   │   ├── Hero.jsx           # Landing & mission
+│   │   ├── HeroSlideshow.jsx  # Project photo carousel
+│   │   ├── About.jsx          # Foundation story
+│   │   ├── Projects.jsx       # Six initiatives
+│   │   ├── Impact.jsx         # Social impact
+│   │   ├── Campaigns.jsx      # Events & drives
+│   │   ├── Highlights.jsx     # Stories & updates
+│   │   ├── JoinCTA.jsx        # Volunteer / Donate / CSR
+│   │   ├── Contact.jsx        # Reach us
+│   │   └── ...
+│   │
+│   ├── data/
+│   │   └── content.js         # ⭐ Edit text & images here
+│   │
+│   ├── context/
+│   │   └── ThemeContext.jsx   # Light / dark mode
+│   │
+│   ├── App.jsx
+│   └── index.css
+│
+├── index.html
+├── vite.config.js
+└── package.json
+
+Customizing Content
+Most website content lives in one place:
+
+src/data/content.js
+
+Section in file	What it controls
+projects
+Project names, images, impact text
+heroSlides
+Hero slideshow photos & captions
+campaigns
+Event cards
+highlights
+Story / blog cards
+stats
+Impact numbers
+contact
+Address, email, phone
+hashtags
+Social media tags
+Adding Your Own Images
+Save images in public/images/
+Use paths like: '/images/project-seva.jpg'
+Or link images directly from your NGO website.
+
+Deployment
+After npm run build, upload the dist/ folder to your hosting provider.
+
+Recommended hosts: Vercel · Netlify · GitHub Pages
+
+Ensure SPA routing is enabled so all routes serve index.html.
