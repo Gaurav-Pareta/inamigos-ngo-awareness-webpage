@@ -1,41 +1,73 @@
-# InAmigos Foundation — Awareness Page
+# InAmigos Foundation — Awareness Webpage
 
-A responsive React + Tailwind CSS awareness website for **InAmigos Foundation**, showcasing NGO projects, social impact, campaigns, and call-to-action sections.
+A modern, responsive awareness website for **InAmigos Foundation**, a Section 8 registered non-profit based in Chhattisgarh, India. The site highlights the NGO’s mission, ongoing projects, social impact, campaigns, and ways to volunteer, donate, or partner.
 
-## Tech Stack
+Built as a **frontend-only** competition project using React and Tailwind CSS.
 
-- **React 19** + **Vite 6**
-- **Tailwind CSS v4** via `@tailwindcss/vite` (no PostCSS config required)
-- **Framer Motion** for animations
-- **Lucide React** for icons
+---
 
-## Getting Started
+## Live Demo
 
-```bash
-npm install
-npm run dev
-```
+> Add your deployed URL here after hosting (e.g. Vercel, Netlify, GitHub Pages).
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
+---
 
-## Build for Production
+## About InAmigos Foundation
 
-```bash
-npm run build
-npm run preview
-```
+**InAmigos Foundation** was founded on **23 September 2020** by **Mr. Govind Shukla** (Founder & CEO). It is licensed by the Central Government under **Section 8**, with **80G & 12A**, **CSR-1**, **NITI Aayog**, and **IAF ISO 9001:2015** certifications.
+
+### Key Initiatives
+
+| Project | Focus |
+|--------|--------|
+| **Project Seva** | Food and clothing for the underprivileged |
+| **Project Bachpanshala** | Education and digital literacy for children |
+| **Project Jeev** | Animal welfare, rescue, and feeding |
+| **Project Udaan** | Women empowerment and skill development |
+| **Project Prakriti** | Environmental conservation and tree plantation |
+| **Project Vikas** | Employability and internship programs |
+
+---
 
 ## Features
 
-- NGO introduction & credentials (Section 8, 80G, CSR-1, NITI Aayog, ISO)
-- Six ongoing projects with interactive detail panel
-- Social impact metrics with animated counters
-- Campaign/event cards & content highlights
-- Hashtag cloud (#InAmigos and related tags)
-- Volunteer / Donate / CSR partnership CTAs
-- Contact section with map embed
-- Fully responsive mobile-first design
+- **Hero section** with auto-rotating project photo slideshow
+- **About** section with credentials and recognitions
+- **Projects** — interactive tabs + project cards with impact details
+- **Social impact** — animated statistics and per-project impact cards
+- **Campaigns & highlights** — event cards and blog-style content
+- **Hashtag cloud** — `#InAmigos` and related campaign tags
+- **Call to action** — Volunteer, Donate, CSR partnership options
+- **Contact** — address, email, phone, and map embed
+- **Light / dark mode** with saved preference
+- **Fully responsive** — mobile, tablet, and desktop
+- **Smooth animations** — scroll reveals and transitions (Framer Motion)
+- **Safe image loading** — fallback if an image URL fails
 
-## Note
+---
 
-This is a **frontend-only** project. The contact form shows a success message locally without sending data to a server.
+## Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| [React 19](https://react.dev/) | UI framework |
+| [Vite 6](https://vitejs.dev/) | Build tool and dev server |
+| [Tailwind CSS v4](https://tailwindcss.com/) | Styling (`@tailwindcss/vite`, no PostCSS config) |
+| [Framer Motion](https://www.framer.com/motion/) | Animations |
+| [Lucide React](https://lucide.dev/) | Icons |
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or newer recommended)
+- npm
+
+### Installation
+
+```bash
+git clone <your-repo-url>
+cd "InAmigos Awareness Page"
+npm install
